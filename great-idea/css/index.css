@@ -157,6 +157,12 @@ header {
 	padding: 20px 0; */
 }
 
+.section-2-top-sub-services {
+	background-color: rgb(238, 235, 235);
+	margin: 5px;
+	border: 1px solid gray;
+}
+
 .section-2-top-sub p:nth-child(3) {
 	padding: 20px;
 }
@@ -173,9 +179,10 @@ header {
 
 /* lower part starts*/
 
-.lowepart {
+.lowerpart {
+	padding: 30px 0;
 	display: flex;
-	flex-flow: column wrap;
+	flex-flow: row wrap;
 }
 
 .section-3 {
@@ -183,14 +190,22 @@ header {
 	padding-top: 30px;
 	display: flex;
 	flex-flow: column wrap;
+	width: 400px;
+}
+
+ul.menufooter {
+	padding: 30px;
+	list-style-type: square;
 }
 
 footer {
 	margin: 55px 12px;
+	width: 900px;
 }
 
 footer p {
 	text-align: center;
+
 }
 
 /* lower part finishes */
