@@ -64,3 +64,118 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container {
+	width: 900px;
+	margin: 0 auto;
+}
+
+.header-sub {
+	/* border: 1px solid red; */
+	display: inline-block;
+	vertical-align: top;
+}
+
+header ul li {
+	display: inline-block;
+	/* border: 1px solid green; */
+	margin: 35px 10px;
+	font-size: 0.90em;
+}
+
+header ul li.move {
+	padding-left: 30px;
+}
+
+.headimage {
+	margin: 0 0 25px 90px;
+	/* padding-top: 30px; */
+	padding: 30px 0 0 30px;
+}
+
+.section-1 {
+	/* border: 1px solid red; */
+	margin-top: 50px;
+}
+
+.section-1 > div {
+	/* border: 1px solid black;
+	background-color: green; */
+	display: inline-block;
+	width: 440px;
+	height: 400px;
+	vertical-align: top;
+}
+
+.section-1-left * {
+	text-align: center;
+} 
+
+.section-1-left h1 {
+	font-size: 70px;
+	padding-top: 50px;
+}
+
+.section-1-left p {
+	padding: 10px;
+	display: block;
+	width: 150px;
+	height: 30px;
+	margin: 0 auto;
+	border: 1px solid gray;
+	margin-top: 40px;
+	padding: 10px;
+}
+
+.section-1-right img {
+	padding-left: 60px;
+}
+
+.section-2 {
+	/* background-color: green; */
+	margin: 55px 12px 20px 12px;
+	border-top: 1px solid black;
+	padding-top: 40px;
+}
+
+.section-2-top > div {
+
+	display: inline-block;
+	width: 435px;
+	padding-bottom: 20px;
+}
+
+.section-2-middle {
+	padding: 20px 0;
+}
+
+.section-2-bottom {
+	padding: 20px 0;
+}
+
+.section-2-bottom > div {
+	width: 288px;
+	display: inline-block;
+	padding: 0 20px;
+}
+
+.section-3 {
+	/* background-color: yellow; */
+	margin: 0 12px;
+	border-top: 1px solid black;
+	padding-top: 30px;
+	/* this is a test */
+}
+
+.section-3 > div {
+	/* background-color: red;
+	border: 1px solid black; */
+	width: 200px;
+}
+
+footer {
+	margin: 55px 12px;
+}
+
+footer p {
+	text-align: center;
+}
